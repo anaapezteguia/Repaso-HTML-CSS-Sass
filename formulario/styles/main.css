@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 2px;
+  /* border: rebeccapurple solid 2px; */
+}
+
+input {
+  display: block;
+}
