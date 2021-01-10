@@ -3,6 +3,12 @@
   grid-template-columns: 1fr;
   padding: 20px;
   flex-grow: 2;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
 }
 .post {
   display: grid;
@@ -27,6 +33,9 @@
 .secondary-content {
   display: flex;
   flex-direction: row;
+  @media all and (min-width: 768px) {
+    flex-direction: column;
+  }
 }
 .author {
   justify-content: space-between;
