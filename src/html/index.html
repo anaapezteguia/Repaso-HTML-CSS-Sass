@@ -11,53 +11,9 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
-            <img src="./assets/images/miLogoFake.png" alt="logo blog" class="header__logo">
-            <h1 class="header__claim">Mi vida en verso</h1>
-        </header>
-        <main class="main">
-            <section class="post">
-                <div class="post__item">
-                    <h2 class="post__item--title">Título del post</h2>
-                    <p class=" post__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus.</p>
-                </div>
-                <div class="post__item">
-                    <h2 class="post__item--title">Título del post</h2>
-                    <p class=" post__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus.</p>
-                </div>
-                <div class="post__item">
-                    <h2 class="post__item--title">Título del post</h2>
-                    <p class=" post__item--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus.</p>
-                </div>
-            </section>
-            <section class="secondary-content">
-                <aside class="author">
-                    <img src="./assets/images/itsMe.png" alt="author picture" class="author__img">
-                    <h2 class="author__title">Ana apezteguía</h2>
-                    <p class="author__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, deserunt provident dolor eaque eos quisquam distinctio.</p>
-                </aside>
-                <nav class="menu">
-                    <ul class="menu__sections">
-                        <li><a href="#" class="menu__link">Sección 1</a></li>
-                        <li><a href="#" class="menu__link">Sección 2</a></li>
-                        <li><a href="#" class="menu__link">Sección 3</a></li>
-                        <li><a href="#" class="menu__link">Sección 4</a></li>
-                        <li><a href="#" class="menu__link">Sección 5</a></li>
-                    </ul>
-                    <ul class="menu__categories">
-                        <li><a href="#" class="menu__link">Categoría 1</a></li>
-                        <li><a href="#" class="menu__link">Categoría 2</a></li>
-                        <li><a href="#" class="menu__link">Categoría 3</a></li>
-                        <li><a href="#" class="menu__link">Categoría 4</a></li>
-                        <li><a href="#" class="menu__link">Categoría 5</a></li>
-
-                    </ul>
-                </nav>
-            </section>
-        </main>
-        <footer class="footer">
-            <small>© 2020 - Mi vida en verso</small>
-        </footer>
+        <include src="./partials/header.html" title="Mi vida en verso" ></include>
+        <include src="./partials/main.html"></include>
+        <include src="./partials/footer.html" title="Mi vida en verso" ></include>
     </div>
 </body>
 </html>

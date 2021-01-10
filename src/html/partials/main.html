@@ -1,40 +1,43 @@
-<main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
+<main class="main">
+  <section class="post">
       <include
-        src="./link.html"
-        aClass="link__adalab"
-        text="Adalab"
-        url="https://adalab.es"
+        src="./posts.html"
+        postTitle="Pepito Pérez y sus historias"
+        postText="Érase que se era un Lorem ipsum dolor fake para comprobar mis textetes. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus."
       ></include>
-    </li>
-    <li>
-      <include src="./link.html" text="Más info del starter kit" url="./more-info.html"></include>
-    </li>
-  </ul>
+      <include
+        src="./posts.html"
+        postTitle="Juan Palomo: yo me lo guiso, yo me lo como"
+        postText="En apariencia todo iba como la seda una vez superados los primeros ataque de nervios debidos a la inseguridad supina de ser una newbie en la materia. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus."
+      ></include>
+      <include
+        src="./posts.html"
+        postTitle="¡A mí la guardia!"
+        postText="No obstante, ya peinando canas no era momento de seguir dejándose agarrotar por los miedos, así que sin vacilación me dije, vehementemente y para mis adentros: ¡¡¡A por ellos, que son pocos y cobardes!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus."
+      ></include>
+  </section>
+  <section class="secondary-content">
+      <aside class="author">
+          <img src="./assets/images/itsMe.png" alt="author picture" class="author__img">
+          <h2 class="author__title">Ana apezteguía</h2>
+          <p class="author__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, deserunt provident dolor eaque eos quisquam distinctio.</p>
+      </aside>
+      <nav class="menu">
+          <ul class="menu__sections">
+              <li><a href="#" class="menu__link">Sección 1</a></li>
+              <li><a href="#" class="menu__link">Sección 2</a></li>
+              <li><a href="#" class="menu__link">Sección 3</a></li>
+              <li><a href="#" class="menu__link">Sección 4</a></li>
+              <li><a href="#" class="menu__link">Sección 5</a></li>
+          </ul>
+          <ul class="menu__categories">
+              <li><a href="#" class="menu__link">Categoría 1</a></li>
+              <li><a href="#" class="menu__link">Categoría 2</a></li>
+              <li><a href="#" class="menu__link">Categoría 3</a></li>
+              <li><a href="#" class="menu__link">Categoría 4</a></li>
+              <li><a href="#" class="menu__link">Categoría 5</a></li>
+
+          </ul>
+      </nav>
+  </section>
 </main>
