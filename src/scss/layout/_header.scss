@@ -3,12 +3,12 @@
   padding: 20px;
   border-bottom: 1px solid #ccc;
   text-align: center;
-}
-.header__logo {
-  margin-bottom: 10px;
-}
-.header__claim {
-  font-size: 32px;
-  font-weight: 600;
-  color: #666;
+  &__logo {
+    margin-bottom: 10px;
+  }
+  &__claim {
+    font-size: 32px;
+    font-weight: 600;
+    color: $mainColor;
+  }
 }
