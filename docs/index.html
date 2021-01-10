@@ -1,68 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,900;1,200;1,400;1,600;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" href="./assets/images/miFavicon.png" />
+    <title>Ejercicio repaso final</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+          <div class="header__pageContainer">
+            <img src="./assets/images/miLogoFake.png" alt="logo blog" class="header__pageContainer--logo">
+            <h1 class="header__pageContainer--claim">Mi vida en verso</h1>
+          </div>
+        </header>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+        <main class="main">
+          <div class="main__pageContainer">
+          <section class="post">
+              <div class="post__item">
+                  <h2 class="post__item--title">Pepito Pérez y sus historias</h2>
+                  <p class=" post__item--text">Érase que se era un Lorem ipsum dolor fake para comprobar mis textetes. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus.</p>
+              </div>
+              <div class="post__item">
+                  <h2 class="post__item--title">Juan Palomo: yo me lo guiso, yo me lo como</h2>
+                  <p class=" post__item--text">En apariencia todo iba como la seda una vez superados los primeros ataque de nervios debidos a la inseguridad supina de ser una newbie en la materia. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus.</p>
+              </div>
+              <div class="post__item">
+                  <h2 class="post__item--title">¡A mí la guardia!</h2>
+                  <p class=" post__item--text">No obstante, ya peinando canas no era momento de seguir dejándose agarrotar por los miedos, así que sin vacilación me dije, vehementemente y para mis adentros: -¡¡¡A por ellos, que son pocos y cobardes!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo corporis dolores, nesciunt earum quasi ducimus temporibus placeat obcaecati voluptates iure optio possimus atque sit nemo sed consectetur consequuntur? Delectus.</p>
+              </div>
+          </section>
+          <section class="secondary-content">
+              <aside class="author">
+                  <img src="./assets/images/itsMe.png" alt="author picture" class="author__img">
+                  <h2 class="author__title">Ana apezteguía</h2>
+                  <p class="author__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, deserunt provident dolor eaque eos quisquam distinctio.</p>
+              </aside>
+              <aside class="menu">
+              <nav class="menu__sections">
+                  <ul>
+                      <li><a href="#" class="menu__link">Sección 1</a></li>
+                      <li><a href="#" class="menu__link">Sección 2</a></li>
+                      <li><a href="#" class="menu__link">Sección 3</a></li>
+                      <li><a href="#" class="menu__link">Sección 4</a></li>
+                      <li><a href="#" class="menu__link">Sección 5</a></li>
+                  </ul>
+             </nav>
+             <nav class="menu__categories">
+                  <ul>
+                      <li><a href="#" class="menu__link">Categoría 1</a></li>
+                      <li><a href="#" class="menu__link">Categoría 2</a></li>
+                      <li><a href="#" class="menu__link">Categoría 3</a></li>
+                      <li><a href="#" class="menu__link">Categoría 4</a></li>
+                      <li><a href="#" class="menu__link">Categoría 5</a></li>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
+                  </ul>
+              </nav>
+            </aside>
+          </section>
+        </div>
+        </main>
+        <footer class="footer">
+          <div class="footer__pageContainer">
+            <small>© 2020 - Mi vida en verso</small>
+          </div>
+        </footer>
     </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+</body>
 </html>
