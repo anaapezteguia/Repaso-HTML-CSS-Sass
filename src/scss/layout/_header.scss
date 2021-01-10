@@ -1,19 +1,22 @@
-.header {
+.header__pageContainer {
   margin: 20px 0;
   padding: 20px;
   border-bottom: 1px solid #ccc;
   text-align: center;
-  &__logo {
+  &--logo {
     margin-bottom: 10px;
   }
-  &__claim {
+  &--claim {
     font-size: 32px;
     font-weight: 600;
     color: $mainColor;
   }
   @media all and (min-width: 768px) {
     text-align: left;
-    &__claim {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $bgColor;
+    &--claim {
       font-size: 40px;
     }
   }
